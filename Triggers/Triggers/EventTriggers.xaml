@@ -20,6 +20,16 @@
                                 </BeginStoryboard>
                             </EventTrigger.Actions>
                         </EventTrigger>
+
+                        <EventTrigger RoutedEvent="MouseLeave">
+                            <EventTrigger.Actions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.300" Storyboard.TargetProperty="FontSize" To="20"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger.Actions>
+                        </EventTrigger>
                     </Style.Triggers>
                 </Style>
             </TextBlock.Style>
