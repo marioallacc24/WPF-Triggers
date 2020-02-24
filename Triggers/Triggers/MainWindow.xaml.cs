@@ -30,5 +30,11 @@ namespace Triggers
             PropertyTriggers propertyTriggers = new PropertyTriggers();
             propertyTriggers.Show();
         }
+
+        private void DataTrigBtn(object sender, RoutedEventArgs e)
+        {
+            DataTriggers dataTriggers = new DataTriggers();
+            dataTriggers.Show();
+        }
     }
 }
