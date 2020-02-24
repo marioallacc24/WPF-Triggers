@@ -36,5 +36,11 @@ namespace Triggers
             DataTriggers dataTriggers = new DataTriggers();
             dataTriggers.Show();
         }
+
+        private void EventTrigBtn(object sender, RoutedEventArgs e)
+        {
+            EventTriggers eventTriggers = new EventTriggers();
+            eventTriggers.Show();
+        }
     }
 }

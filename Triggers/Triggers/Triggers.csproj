@@ -58,10 +58,17 @@
     <Compile Include="DataTriggers.xaml.cs">
       <DependentUpon>DataTriggers.xaml</DependentUpon>
     </Compile>
+    <Compile Include="EventTriggers.xaml.cs">
+      <DependentUpon>EventTriggers.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PropertyTriggers.xaml.cs">
       <DependentUpon>PropertyTriggers.xaml</DependentUpon>
     </Compile>
     <Page Include="DataTriggers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EventTriggers.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

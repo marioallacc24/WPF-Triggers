@@ -11,7 +11,7 @@
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <Button Content="Property Triggers" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10" Click="PropertyTrigBtn"/>
             <Button Content="Data Triggers" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10" Click="DataTrigBtn"/>
-            <Button Content="Event Triggers" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10"/>
+            <Button Content="Event Triggers" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10" Click="EventTrigBtn"/>
         </StackPanel>
         
 
